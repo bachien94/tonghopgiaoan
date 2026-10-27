@@ -119,16 +119,16 @@ tkb_data = {}
 
 for idx, thu in enumerate(cac_thu):
     with tabs[idx]:
-        st.markdown(f"**Thời khóa biểu ngày {thu}:**")
+        st.markdown(f"<p style='margin-bottom: 2px; font-weight: bold;'>Thời khóa biểu ngày {thu}:</p>", unsafe_allow_html=True)
         
         col_h = st.columns([1.1, 2.0, 1.8, 1.8, 3.4])
-        col_h[0].markdown("<span style='font-size:12px; font-weight:bold;'>Buổi / Tiết</span>", unsafe_allow_html=True)
-        col_h[1].markdown("<span style='font-size:12px; font-weight:bold;'>Môn học</span>", unsafe_allow_html=True)
-        col_h[2].markdown("<span style='font-size:12px; font-weight:bold;'>Khối</span>", unsafe_allow_html=True)
-        col_h[3].markdown("<span style='font-size:12px; font-weight:bold;'>Lớp</span>", unsafe_allow_html=True)
-        col_h[4].markdown("<span style='font-size:12px; font-weight:bold;'>Đính kèm file giáo án (.docx)</span>", unsafe_allow_html=True)
+        col_h[0].markdown("<div style='font-size:12px; font-weight:bold; line-height: 1.1;'>Buổi / Tiết</div>", unsafe_allow_html=True)
+        col_h[1].markdown("<div style='font-size:12px; font-weight:bold; line-height: 1.1;'>Môn học</div>", unsafe_allow_html=True)
+        col_h[2].markdown("<div style='font-size:12px; font-weight:bold; line-height: 1.1;'>Khối</div>", unsafe_allow_html=True)
+        col_h[3].markdown("<div style='font-size:12px; font-weight:bold; line-height: 1.1;'>Lớp</div>", unsafe_allow_html=True)
+        col_h[4].markdown("<div style='font-size:12px; font-weight:bold; line-height: 1.1;'>Đính kèm file giáo án (.docx)</div>", unsafe_allow_html=True)
         
-        st.markdown("<hr style='margin: 2px 0 6px 0;'>", unsafe_allow_html=True)
+        st.markdown("<hr style='margin-top: 2px; margin-bottom: 4px;'>", unsafe_allow_html=True)
         
         for buoi, tiet in dieu_phoi_tiet:
             row_cols = st.columns([1.1, 2.0, 1.8, 1.8, 3.4])
