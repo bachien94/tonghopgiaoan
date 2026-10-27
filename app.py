@@ -68,7 +68,7 @@ with st.expander("⚙️ Tùy chỉnh Tiêu đề trang (Header) & Chân trang (
     st.markdown("##### 📌 Tùy chỉnh Header (Đầu trang - Có kẻ ngang sát chữ)")
     col_hf1, col_hf2 = st.columns(2)
     with col_hf1:
-        header_left = st.text_input("📝 Header (Bên trái):", value="KBBD: Đa môn")
+        header_left = st.text_input("📝 Header (Bên trái):", value="KHBD: Đa môn")
     with col_hf2:
         header_right = st.text_input("📝 Header (Bên phải):", value="Năm học: 2026 - 2027")
     
