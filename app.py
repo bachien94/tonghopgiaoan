@@ -75,9 +75,9 @@ with st.expander("⚙️ Tùy chỉnh Tiêu đề trang (Header) & Chân trang (
     st.markdown("##### 📌 Tùy chỉnh Footer (Chân trang - Cỡ chữ 13, có kẻ phía trên)")
     col_hf3, col_hf4 = st.columns(2)
     with col_hf3:
-        footer_left = st.text_input("📝 Footer (Bên trái):", value="Hồ sơ giáo án cá nhân")
+        footer_left = st.text_input("📝 Footer (Bên trái):", value="Tên Giáo viên")
     with col_hf4:
-        footer_right = st.text_input("📝 Footer (Bên phải):", value="")
+        footer_right = st.text_input("📝 Footer (Bên phải):", value="Trường Tiểu học Ba Tơ")
 
 st.markdown("---")
 
