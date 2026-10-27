@@ -85,7 +85,7 @@ st.markdown("---")
 danh_sach_mon = [
     "-- Chọn môn học --", "Tin học", "Toán", "Tiếng Việt", "Đạo đức", 
     "Tự nhiên và Xã hội", "Khoa học", "Lịch sử và Địa lý", 
-    "Mỹ thuật", "Âm nhạc", "Thể dục", "Hoạt động trải nghiệm", "Tiếng Anh"
+    "Mỹ thuật", "Âm nhạc", "Thể dục", "Hoạt động trải nghiệm", "Tiếng Anh", "Công nghệ"
 ]
 
 danh_sach_khoi = ["-- Chọn khối --", "Khối 1", "Khối 2", "Khối 3", "Khối 4", "Khối 5"]
